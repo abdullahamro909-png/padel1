@@ -1,0 +1,25 @@
+{
+  "package": "com.rpk.padelscoring",
+  "name": "RPK Padel",
+  "versionName": "1.0.0",
+  "versionCode": 1,
+  "minPlatformVersion": 1000,
+  "icon": "/Common/icon.png",
+  "features": [],
+  "router": {
+    "entry": "pages/Index",
+    "pages": {
+      "pages/Index": {
+        "component": "index",
+        "path": "/"
+      }
+    }
+  },
+  "display": {
+    "pages": {
+      "pages/Index": {
+        "titleBar": false
+      }
+    }
+  }
+}
